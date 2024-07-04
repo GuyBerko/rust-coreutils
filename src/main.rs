@@ -23,6 +23,7 @@ fn main() {
 
     match &function[..] {
         "ls" => file_list::ls(),
+        "mkdir" => make_dir::mkdir(),
         _ => println!("Function not recognized")
     }
 }
